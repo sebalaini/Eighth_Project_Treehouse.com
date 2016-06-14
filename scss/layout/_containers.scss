@@ -1,0 +1,133 @@
+/***************
+CONTAINER
+***************/
+
+.tagline {
+  font-weight: 600;
+  padding: 20px;
+  text-transform: uppercase;
+  color: #781125
+}
+
+
+.card {  
+  @include mobile {
+    margin: 30px;
+    padding: 20px 40px 40px;
+    text-align: left;
+    border-top: 4px solid #781125;
+    clear: both;
+  } 
+  @include tablet {
+    margin: 40px auto;
+    padding: 20px 40px 40px;
+    width: 80%;
+    max-width: 1000px;
+  }
+}
+
+.card:hover {
+  border-color: #96731A;
+}
+
+
+.photo {
+  @include mobile {
+    display: block;
+    width: 200px;
+    height: 0%;
+    margin: 0 auto;
+} 
+ @include tablet {
+    width: 30%;
+    margin: 20px 30px;
+  }
+}
+
+
+.information {
+  @include mobile {
+    width: 100%;
+    text-align: center;
+    /*display: inline-block;
+    position: absolute;*/
+  }
+  @include tablet {
+    text-align: left;
+  }
+}
+
+
+.heading{
+  font-size: 2em;
+  text-transform: uppercase;
+  color: #781125;
+  margin-top: 10px;
+}
+
+
+.flex {
+  @include tablet {
+    display: -ms-flexbox;      /* TWEENER - IE 10 */
+    display: flex;
+    max-width: 1200px;
+    -ms-flex-pack: distribute;
+  }
+}
+
+
+
+/***************
+SURVEY
+***************/
+
+.SurveyPhoto {
+  @include mobile {
+    width: 60%;
+    padding: 10px;
+  }
+  @include tablet {
+    width: 40%;
+  }
+}
+
+form {
+  margin: 0 auto;
+  text-align: left;
+  display: inline-block;
+}
+
+.container{
+  text-align: center;
+}
+
+.newsletter{
+  text-align: right;
+}
+
+
+
+/***************
+TOUR
+***************/
+
+pre {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.heading{
+  display: inline-block;
+  margin: 0;
+}
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+}
+
+
+
+
+
+
