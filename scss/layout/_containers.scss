@@ -6,7 +6,7 @@ CONTAINER
   font-weight: 600;
   padding: 20px;
   text-transform: uppercase;
-  color: #781125
+  color: $red;
 }
 
 
@@ -15,7 +15,7 @@ CONTAINER
     margin: 30px;
     padding: 20px 40px 40px;
     text-align: left;
-    border-top: 4px solid #781125;
+    border-top: 4px solid $red;
     clear: both;
   } 
   @include tablet {
@@ -24,10 +24,6 @@ CONTAINER
     width: 80%;
     max-width: 1000px;
   }
-}
-
-.card:hover {
-  border-color: #96731A;
 }
 
 
@@ -49,8 +45,6 @@ CONTAINER
   @include mobile {
     width: 100%;
     text-align: center;
-    /*display: inline-block;
-    position: absolute;*/
   }
   @include tablet {
     text-align: left;
@@ -73,6 +67,10 @@ CONTAINER
     max-width: 1200px;
     -ms-flex-pack: distribute;
   }
+}
+
+fieldset {
+  border: none;
 }
 
 

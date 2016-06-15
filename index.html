@@ -19,12 +19,18 @@
   </div>
 
 <header>
+  <img id="banner" src="img/concert02_no_text.jpg" alt="">
+    <h1>ACCESSIBLE FROG</h1>
+  <p>we make awesome music</p>
 </header>
 
-  <main>
+<main>
+  <fieldset>
+    <legend>New album out now</legend>
+
     <div class="card">
       <div class="flex">
-        <img class="photo" src= "img/soul_of_the_frog.jpg">
+        <img class="photo" src= "img/soul_of_the_frog.jpg" alt="soul of the frog album front">
           <div class="information">
             <p class="heading">New album out now</p>
             <p>Soul of the Frog</p>
@@ -33,23 +39,28 @@
           </div>
         </div>
       </div>
+  </fieldset>
 
-  <div class="card">
-    <div class="flex">
-      <img class="photo" src= "img/lead_singer.jpg">
-        <div class="information">
-          <p class="heading">About the band</p>
-          <p>Photo booth aliquip pinterest meggings. Sapiente commodo wolf put a bird on it fingerstache gentrify, meh polaroid vegan everyday carry.</p>
+  <fieldset>
+    <legend>About the band</legend>
+
+      <div class="card">
+        <div class="flex">
+          <img class="photo" src= "img/lead_singer.jpg" alt="band photo">
+            <div class="information">
+              <p class="heading">About the band</p>
+              <p>Photo booth aliquip pinterest meggings. Sapiente commodo wolf put a bird on it fingerstache gentrify, meh polaroid vegan everyday carry.</p>
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-  </main>
+  </fieldset>
+</main>
 
 <footer>
   <ul>
-    <li><a href="#" class="social twitter"></a></li>
-    <li><a href="#" class="social youtube"></a></li>
-    <li><a href="#" class="social spotify"></a></li>
+    <li><a href="#" class="social twitter" aria-hidden="true"><img src= "img/twitter-32.png" alt="twitter logo"></a></li>
+    <li><a href="#" class="social youtube" aria-hidden="true"><img src= "img/youtube-32.png" alt="youtube logo"></a></li>
+    <li><a href="#" class="social spotify" aria-hidden="true"><img src= "img/spotify-32.png" alt="spotify logo"></a></li>
   </ul>
       <p class="copyright">Copyright 2015, Accessible Frog</p>
     </footer>

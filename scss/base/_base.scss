@@ -11,8 +11,7 @@ body {
   padding: 0;
   text-align: center;
   font-family: 'Open Sans', sans-serif;
-  color: #3A6355;
-  background: #2d2b30;
+  background: $grey;
 }
 
 main {
@@ -27,7 +26,18 @@ main p {
   }
 }
 
+p,
+legend,
+caption,
+td,
+th,
+label {
+  color: $blue;
+}
 
+p.heading {
+  color: $red;
+}
 
 /***************
 LINK
@@ -35,11 +45,12 @@ LINK
 
 a {
   text-decoration: none;
-  color: #999;
+  color: $white;
 }
 
-a:hover {
-  color: #999;
+a:hover,
+a:focus {
+  color: $red;
 }
 
 
