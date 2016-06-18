@@ -13,22 +13,16 @@ CONTAINER
 .card {  
   @include mobile {
     margin: 30px;
-    padding: 20px 40px 40px;
+    padding: 80px 40px 40px;
     text-align: left;
     border-top: 4px solid $red;
     clear: both;
   } 
   @include tablet {
     margin: 40px auto;
-    padding: 20px 40px 40px;
     width: 80%;
     max-width: 1000px;
   }
-}
-
-.tourtable {
-  border-top: none;
-  display: inline;
 }
 
 .photo {
@@ -114,16 +108,7 @@ table {
 }
 
 caption {
-  @include mobile {
-    font-size: 1.3em;
-  }
-  @include tablet {
-    padding-top: 20px;
-    border-top: 4px solid $red;
-    width: 160%;
-    position: relative;
-    left: -30%;
-  }
+  font-size: 1.3em;
 }
 
 thead {
@@ -181,10 +166,12 @@ form {
 
 .container{
   text-align: center;
+  margin-top: 20px;
 }
 
 .newsletter{
   text-align: right;
+  margin-top: 20px;
 }
 
 input[type="text"],
