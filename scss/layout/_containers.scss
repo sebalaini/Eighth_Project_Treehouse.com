@@ -26,6 +26,10 @@ CONTAINER
   }
 }
 
+.tourtable {
+  border-top: none;
+  display: inline;
+}
 
 .photo {
   @include mobile {
@@ -88,26 +92,38 @@ TOUR
   width: 40px;
   height: 0%;
   padding: 10px;
+  position: relative;
+  top: 10px;
 }
 
 #tourdates {
   text-align: center;
 }
 
+
 table {
   @include mobile {
+    margin: 0 auto;
     margin-top: 50px;
-    width: 500px;
+    width: 350px;
     text-align: center;
   }
   @include tablet {
-    margin-top: 10px;
-    margin-left: 90px;
+    width: 500px;
   }
 }
 
 caption {
-  font-size: 1.3em;
+  @include mobile {
+    font-size: 1.3em;
+  }
+  @include tablet {
+    padding-top: 20px;
+    border-top: 4px solid $red;
+    width: 160%;
+    position: relative;
+    left: -30%;
+  }
 }
 
 thead {
