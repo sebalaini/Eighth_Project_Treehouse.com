@@ -76,6 +76,49 @@ fieldset {
 
 
 /***************
+TOUR
+***************/
+
+.heading{
+  display: inline-block;
+  margin: 0;
+}
+
+.pick{
+  width: 40px;
+  height: 0%;
+  padding: 10px;
+}
+
+table {
+  @include mobile {
+    margin-top: 50px;
+    width: 500px;
+    text-align: center;
+  }
+  @include tablet {
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+}
+
+caption {
+  font-size: 1.3em;
+}
+
+thead {
+  background: $blue;
+}
+
+th {
+  color: $grey;
+}
+
+tr {
+  height: 35px;
+}
+
+/***************
 SURVEY
 ***************/
 
@@ -87,6 +130,27 @@ SURVEY
   @include tablet {
     width: 40%;
   }
+}
+
+label {
+  margin: 5px;
+  display: inline-block;
+}
+
+label.clearfix {
+  @include mobile {
+    margin-top: 20px;
+    display: block;
+  }
+  @include tablet {
+    display: inline-block;
+  }
+}
+
+select,
+textarea {
+  display: block;
+  margin: 10px 5px 5px;
 }
 
 form {
@@ -103,28 +167,12 @@ form {
   text-align: right;
 }
 
-
-
-/***************
-TOUR
-***************/
-
-pre {
-  font-family: 'Open Sans', sans-serif;
+textarea#favouriteSong:focus,
+input:focus,
+button:focus {
+  border: 2px solid $blue;
+  background: $red;
 }
-
-.heading{
-  display: inline-block;
-  margin: 0;
-}
-
-.pick{
-  width: 40px;
-  height: 0%;
-  padding: 10px;
-}
-
-
 
 
 

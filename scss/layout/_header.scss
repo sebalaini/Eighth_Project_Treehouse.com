@@ -34,9 +34,14 @@ header h1 {
   }
 }
 
+header .name{
+  font-size: 3em;
+}
+
 header p {
   @include mobile {
     position: relative;
+    font-size: 1.4em;
     top: -220px;
   }
   @include tablet {

@@ -59,6 +59,11 @@ a:focus {
 SECTION STYLE
 ***************/
 
+legend {
+  font-size: 2em;
+  color: $red;
+}
+
 .tag {
   color: black;
   padding: 10px;
@@ -67,10 +72,6 @@ SECTION STYLE
 
 .name{
   font-weight: 300;
-}
-
-header .name{
-  font-size: 3em;
 }
 
 .clearfix {
