@@ -88,22 +88,20 @@ TOUR
   width: 40px;
   height: 0%;
   padding: 10px;
+  position: relative;
+  top: 10px;
 }
 
 #tourdates {
   text-align: center;
 }
 
+
 table {
-  @include mobile {
-    margin-top: 50px;
-    width: 500px;
-    text-align: center;
-  }
-  @include tablet {
-    margin-top: 10px;
-    margin-left: 90px;
-  }
+  margin: 0 auto;
+  margin-top: 50px;
+  width: 450px;
+  text-align: center;
 }
 
 caption {
