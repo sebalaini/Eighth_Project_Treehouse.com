@@ -15,39 +15,42 @@ header {
 
 #banner {
   @include mobile {
+    position: relative;
+    top: -60px;
     width: 100%;
-    height: 240px;
+    height: 300px;
   }
   @include tablet {
-    height: 350px;
+    height: 420px;
   }
 }
 
 header h1 {
   @include mobile {
+    font-size: 2em;
     position: relative;
-    top: -200px;
+    top: -240px;
     color: $red;
   }
   @include tablet {
-    top: -250px;
+    top: -370px;
+    font-size: 5em;
   }
-}
-
-header .name{
-  font-size: 3em;
 }
 
 header p {
   @include mobile {
     position: relative;
     font-size: 1.4em;
-    top: -220px;
+    top: -260px;
   }
   @include tablet {
-    top: -270px;
+    font-size: 3em;
+    top: -420px;
   }
 }
+
+
 
 /***************
 NAV
