@@ -90,6 +90,10 @@ TOUR
   padding: 10px;
 }
 
+#tourdates {
+  text-align: center;
+}
+
 table {
   @include mobile {
     margin-top: 50px;
@@ -167,6 +171,15 @@ form {
   text-align: right;
 }
 
+input[type="text"],
+input[type="email"] {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
 textarea#favouriteSong:focus,
 input:focus,
 input[type="radio"]:focus,
@@ -174,6 +187,8 @@ button:focus {
   border: 2px solid $blue;
   background: $red;
 }
+
+
 
 
 
