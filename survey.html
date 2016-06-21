@@ -48,7 +48,8 @@
                 <label for="Sally">Sally</label>
                 
                 <label for="albums" class="clearfix">What is your favorite album:</label>
-                <select id="albums" class="clearfix" name="select" aria-labelledby="albums">
+                <p id="selectalbum">Choose your favourite album</p>
+                <select id="albums" class="clearfix" name="select" aria-describedby="selectalbum">
                   
                   <option value="1">A Day Of Old</option>
                   <option value="2">Diamond Fireworks</option>
@@ -82,15 +83,19 @@
                 <form class="newsletter">
                   
                   <label for="Name">Name:</label>
-                  <input id="Name" type ="text" name="textfield" aria-labelledby="Name"><br>
-                  
+                  <input id="Name" type ="text" name="textfield" aria-describedby="entername"><br>
+                  <p id="entername">enter your name</p>
+
                   <label for="Email">Email:</label> 
-                  <input id="Email" type ="email" name="textfield" aria-labelledby="Email"><br>
+                  <input id="Email" type ="email" name="textfield" aria-describedby="entermail"><br>
+                  <p id="entermail">enter your E-mail</p>
                   
                   <label for="RepeatEmail">Retype Email:</label> 
-                  <input id="RepeatEmail" type ="email" name="textfield" aria-labelledby="RepeatEmail"><br>
-                    
-                  <button id="submit" type="submit" aria-labelledby="submit">Sign Up</button>
+                  <input id="RepeatEmail" type ="email" name="textfield" aria-describedby="repeatmail"><br>
+                  <p id="repeatmail">Repeat you E-mail</p>
+
+                  <button id="submit" type="submit" aria-describedby="subbutton">Sign Up</button>
+                  <p id="subbutton">Submit button</p>
                   
                 </form>
               </div>
