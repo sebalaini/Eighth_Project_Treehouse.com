@@ -13,13 +13,13 @@ CONTAINER
 .card {  
   @include mobile {
     margin: 30px;
-    padding: 80px 40px 40px;
+    padding: 30px 40px;
     text-align: left;
     border-top: 4px solid $red;
     clear: both;
   } 
   @include tablet {
-    margin: 40px auto;
+    margin: 30px auto;
     width: 80%;
     max-width: 1000px;
   }
@@ -97,7 +97,6 @@ TOUR
 table {
   @include mobile {
     margin: 0 auto;
-    margin-top: 50px;
     width: 100%;
     text-align: center;
   }
