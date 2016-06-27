@@ -9,7 +9,6 @@ CONTAINER
   color: $red;
 }
 
-
 .card {  
   @include mobile {
     margin: 30px;
@@ -38,7 +37,6 @@ CONTAINER
   }
 }
 
-
 .information {
   @include mobile {
     width: 100%;
@@ -49,14 +47,12 @@ CONTAINER
   }
 }
 
-
 .heading{
   font-size: 2em;
   text-transform: uppercase;
   color: #781125;
   margin-top: 10px;
 }
-
 
 .flex {
   @include tablet {
