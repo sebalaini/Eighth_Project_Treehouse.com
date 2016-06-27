@@ -35,8 +35,23 @@ label {
   color: $blue;
 }
 
-p.heading {
+p.heading,
+h2 {
   color: $red;
+}
+
+h2 {
+  @include mobile {
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  @include tablet {
+    text-align: left;
+  }
+}
+
+.center {
+  text-align: center;
 }
 
 
@@ -62,20 +77,11 @@ SECTION STYLE
 ***************/
 
 legend {
-  @include mobile {
-    width: 100%;
-    text-align: center;
-    font-size: 2em;
-    color: $red;
-    position: relative;
-    top: 90px;
-  }
-  @include tablet {
-    top: 110px;
-  }
-}
-
-.top {
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  color: $red;
+  position: relative;
   top: 25px;
 }
 
