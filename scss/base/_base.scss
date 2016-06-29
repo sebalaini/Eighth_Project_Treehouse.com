@@ -77,12 +77,16 @@ SECTION STYLE
 ***************/
 
 legend {
-  width: 100%;
-  text-align: center;
-  font-size: 2em;
-  color: $red;
-  position: relative;
-  top: 25px;
+  @include mobile {
+    width: 100%;
+    text-align: center;
+    font-size: 2em;
+    color: $red;
+    margin-bottom: 20px;
+  }
+  @include tablet {
+    text-align: left;
+  }
 }
 
 .tag {
