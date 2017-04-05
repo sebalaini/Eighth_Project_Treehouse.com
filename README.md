@@ -1,4 +1,3 @@
-# 3_Accessibility_Refactor
-Take a set of interlinked pages that suffer from various accessibility flaws and refine and update them so they are accessible and pass an accessibility validator(s)'s automated checks and a human's check.
+# Eighth_Project_Treehouse.com
 
-Font used: https://www.google.com/fonts/specimen/Montserrat
+Accessible websites allow everyone to use the web, regardless of physical differences or limited computer hardware. Accessible sites are generally faster to access and easier for searching engines to index. In other words, accessibility can make your site works better and makes easier for others to find it. For this project, I have made a website for the fictional rock band “Accessible Frog" easier for users to access.
